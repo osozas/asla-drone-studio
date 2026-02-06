@@ -52,14 +52,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  #escolher::before,
-  #socios::before,
-  #servicos::before,
-  #contato::before,
-  #escolher::after,
-  #socios::after,
-  #servicos::after,
-  #contato::after {
+  #socios::after {
     display: none !important;
   }
 }
