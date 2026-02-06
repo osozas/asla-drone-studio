@@ -51,6 +51,19 @@ html, body {
     pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  #escolher::before,
+  #socios::before,
+  #servicos::before,
+  #contato::before,
+  #escolher::after,
+  #socios::after,
+  #servicos::after,
+  #contato::after {
+    display: none !important;
+  }
+}
+
 @keyframes float-left {
     0%, 100% {
         transform: translate(0, 0);
